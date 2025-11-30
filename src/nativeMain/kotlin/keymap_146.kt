@@ -221,18 +221,16 @@ const val KEYMAP_CONTENT_146_175 = """
 <KeyMappingEx ItemName="%iName" Point_X="0.867969" Point_Y="0.318056" Description="信号" Remark="" MiniVisiable="false" MiniDisable="false" NoDelete="1" SpecialFunc="0" OpGuidClass="0" InUseDisableView="1" Type="KeyMove" Offset="0.490000" Click_X="0.867969" Click_Y="0.318056" Click_Offset="0.450000" AsciiCode="%iCode" Cancel_X="-0.911133" Cancel_Y="-0.277778" Click_Left="1" ReleaseNow="0" RadiusOffset="1.000000" RadiusRatio="0.079808" Version="2.0" SkillRangeA="1.000000" SkillRangeB="1.000000" Center_X="0.000000" Center_Y="0.000000" StopMoving="0" NeedPressed="1" ReleaseMode="-1" KeyMoveMode="-1" UseMousePos="0" Center_XY_Disable="1" Speed="0.000000" Sensi_X="1.000000" Sensi_Y="1.000000" IsObserve="0" UseDefaultCancelKey="1" Delay="0">
 <SwitchOperation Description="信号" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp|WatchTeammates|CDX"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="滚轮滑动" Point_X="0.644531" Point_Y="0.495000" Description="捡东西鼠标滚轮" Remark="" MiniVisiable="false" MiniDisable="false" Type="WheelSlip" HideTipsAlways="1" Duration="0" DeltaSpeed="0" LimitTime="0" NeedDeceleration="false" PassthroughFilter="" OrientationRatio="1.000000">
-<SwitchOperation Description="捡物(打开背包时)" EnableSwitch="PickupDown|XBtn" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.571875" Point_Y="0.504167"/>
-<SwitchOperation Description="捡快递/空投" EnableSwitch="PacketLeft" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.547656" Point_Y="0.426389"/>
-<SwitchOperation Description="捡物" EnableSwitch="PickupDown" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.571875" Point_Y="0.504167"/>
+<KeyMappingEx Type="WheelSlip" Point_Y="0.495000" Down_X="0.000000" ItemName="鼠标滚轮" HideTipsAlways="1" Description="捡东西鼠标滚轮" Up_X="0.000000" Down_Y="-0.050000" Offset="0.003" Point_X="0.644531" Up_Y="0.050000" Speed="3.000000">
+<SwitchOperation Point_X="0.571875" EnableSwitch="PickupDown|XBtn" Point_Y="0.504167" Description="捡物(打开背包时)" DisableSwitch="MapOpenFlag|ReturnSetUp" />
+<SwitchOperation EnableSwitch="PacketLeft" Description="捡快递/空投" Point_X="0.547656" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_Y="0.426389" />
+<SwitchOperation Point_X="0.571875" Description="捡物" EnableSwitch="PickupDown" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_Y="0.504167" />
 </KeyMappingEx>
-<KeyMappingEx ItemName="滚轮点击" Point_X="0.546094" Point_Y="0.863889" Description="滚轮切枪" Remark="" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelClick" Click_X="0.428125" Click_Y="0.855556">
-<SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="XBtn|MapOpenFlag|PickupDown|PacketLeft|ReturnSetUp"/>
-<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="XBtn|MapOpenFlag|PickupDown|PacketLeft|ReturnSetUp"/>
-<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="XBtn|MapOpenFlag|PickupDown|PacketLeft|ReturnSetUp"/>
+<KeyMappingEx Gap="60" InnerDiameter="20" Description="滚轮缩放" Duration="75" OuterDiameter="50" ItemName="鼠标滚轮" Point_Y="0.535832" Type="WheelZoom" HideTipsAlways="1" Point_X="0.686725" NeedCtrl="false">
+<SwitchOperation Description="地图" EnableSwitch="MapOpenFlag" />
 </KeyMappingEx>
-<KeyMappingEx ItemName="滚轮缩放" Point_X="0.686725" Point_Y="0.535832" Description="滚轮缩放" Remark="" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelZoom" InnerDiameter="20" OuterDiameter="50" Duration="75" Gap="60" ZoomInKey="0" ZoomOutKey="0" NeedCtrl="false" IsWheel="1">
-<SwitchOperation Description="地图" EnableSwitch="MapOpenFlag"/>
+<KeyMappingEx HideTipsAlways="1" Click_Y="0.855556" ItemName="滚轮切枪" Point_Y="0.863889" Type="WheelClick" Click_X="0.428125" Point_X="0.546094" Description="滚轮切枪">
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" />
 </KeyMappingEx>
 <KeyMappingEx ItemName="开车" Point_X="0.500000" Point_Y="0.500000" Description="开车" Remark="" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="Drive">
 <DriveKey AsciiCode="65" Point_X="0.723437" Point_Y="0.701389"/>
