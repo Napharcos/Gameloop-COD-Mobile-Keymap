@@ -198,10 +198,10 @@ const val KEYMAP_CONTENT_145_566 = """
 <SwitchOperation Description="选择手雷解锁鼠标（爆破模式）" EnableSwitch="Boomf" Point_X="0.049219" Point_Y="0.084722"/>
 <SwitchOperation Description="打开设置" EnableSwitch="SetUp" DisableSwitch="InSetUp|ReturnSetUp" Point_X="0.765625" Point_Y="0.050000"/>
 </KeyMapping>
-<KeyMapping ItemName="%spaceName" Point_X="0.958008" Point_Y="0.675347" Description="跳跃" Remark="" MiniVisiable="true" MiniDisable="false" AsciiCode="%spaceCode">
+<KeyMapping ItemName="%spaceName" Point_X="0.958008" Point_Y="0.725347" Description="跳跃" Remark="" MiniVisiable="true" MiniDisable="false" AsciiCode="%spaceCode">
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.942187" Point_Y="0.670000"/>
-<SwitchOperation Description="跳跃" EnableSwitch="Jump" DisableSwitch="ReturnSetUp" HideTips="1"/>
-<SwitchOperation Description="跳跃" EnableSwitch="SetUp" DisableSwitch="InSetUp|ReturnSetUp|Knife2|HangUp" Point_X="0.938008" Point_Y="0.675347" HideTips="1"/>
+<SwitchOperation Description="跳跃" EnableSwitch="Jump" DisableSwitch="ReturnSetUp" HideTips="0"/>
+<SwitchOperation Description="跳跃" EnableSwitch="SetUp" DisableSwitch="InSetUp|ReturnSetUp|Knife2|HangUp" Point_X="0.938008" Point_Y="0.705347" HideTips="0"/>
 </KeyMapping>
 <KeyMapping ItemName="%1Name" Point_X="0.494531" Point_Y="0.876389" Description="换1号武器" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%1Code">
 <SwitchOperation Description="换1号武器" EnableSwitch="Jump" DisableSwitch="Boomf" Point_X="0.494531" Point_Y="0.876389"/>
