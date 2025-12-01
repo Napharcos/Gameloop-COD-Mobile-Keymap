@@ -174,15 +174,15 @@ const val KEYMAP_CONTENT_145_175 = """
 """
 
 const val KEYMAP_CONTENT_145_566 = """
-<KeyMapping ItemName="Right Click" Point_X="0.874219" Point_Y="0.541667" Description="右键开镜" Remark="" MiniVisiable="false" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
+<KeyMapping ItemName="Right Click" Point_X="0.874219" Point_Y="0.591667" Description="右键开镜" Remark="" MiniVisiable="false" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
 <SwitchOperation Description="导弹齐射" EnableSwitch="MissileVolley" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.944531" Point_Y="0.506944"/>
 <SwitchOperation Description="下飞" EnableSwitch="FlyDown" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|" Point_X="0.060937" Point_Y="0.519444" HideTips="1"/>
 <SwitchOperation Description="下车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.046875" Point_Y="0.637500"/>
-<SwitchOperation Description="影刃" EnableSwitch="ShadowBlade" DisableSwitch="ReturnSetUp" Point_X="0.874219" Point_Y="0.541667" HideTips="1"/>
-<SwitchOperation Description="瞄准" EnableSwitch="Sniper" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.874219" Point_Y="0.541667" HideTips="1"/>
-<SwitchOperation Description="取消瞄准" EnableSwitch="Sniper2" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.874219" Point_Y="0.541667" HideTips="1"/>
+<SwitchOperation Description="影刃" EnableSwitch="ShadowBlade" DisableSwitch="ReturnSetUp" Point_X="0.874219" Point_Y="0.591667" HideTips="1"/>
+<SwitchOperation Description="瞄准" EnableSwitch="Sniper" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.874219" Point_Y="0.591667" HideTips="1"/>
+<SwitchOperation Description="取消瞄准" EnableSwitch="Sniper2" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.874219" Point_Y="0.591667" HideTips="1"/>
 <SwitchOperation Description="刀" EnableSwitch="Knife" DisableSwitch="ReturnSetUp" Point_X="0.060937" Point_Y="0.519444" HideTips="1"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="ReturnSetUp" Point_X="0.874219" Point_Y="0.541667" HideTips="1"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="ReturnSetUp" Point_X="0.874219" Point_Y="0.591667" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="%tabName" Point_X="0.049219" Point_Y="0.084722" Description="背包" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%tabCode">
 <SwitchOperation Description="取消释放弓箭/盾牌" EnableSwitch="Bow|Sniper2" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.060937" Point_Y="0.519444"/>
@@ -239,13 +239,13 @@ const val KEYMAP_CONTENT_145_566 = """
 <SwitchOperation Description="翻滚" EnableSwitch="Roll" DisableSwitch="Boomf" Point_X="0.852539" Point_Y="0.918403" HideTips="1"/>
 <SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="ReturnSetUp" Point_X="0.852539" Point_Y="0.918403" HideTips="1"/>
 </KeyMapping>
-<KeyMapping ItemName="%eName" Point_X="0.458594" Point_Y="0.694444" Description="拆弹" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%eCode">
+<KeyMapping ItemName="%eName" Point_X="0.458594" Point_Y="0.744444" Description="拆弹" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%eCode">
 <SwitchOperation Description="直升机炮手" EnableSwitch="gunner" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.738750" Point_Y="0.552222"/>
 <SwitchOperation Description="感应弹" EnableSwitch="Induction" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.800781" Point_Y="0.677778"/>
-<SwitchOperation Description="拆弹" EnableSwitch="BombDisposal" DisableSwitch="Boomf" Point_X="0.458594" Point_Y="0.694444"/>
+<SwitchOperation Description="拆弹" EnableSwitch="BombDisposal" DisableSwitch="Boomf" Point_X="0.458594" Point_Y="0.744444"/>
 <SwitchOperation Description="下飞" EnableSwitch="FlyDown" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|" Point_X="0.759375" Point_Y="0.681111"/>
-<SwitchOperation Description="技能" EnableSwitch="SetUp" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.942187" Point_Y="0.347222"/>
-<SwitchOperation Description="安装炸弹" EnableSwitch="Bomb1" DisableSwitch="Boomf" Point_X="0.458594" Point_Y="0.694444"/>
+<SwitchOperation Description="技能" EnableSwitch="SetUp" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.942187" Point_Y="0.397222"/>
+<SwitchOperation Description="安装炸弹" EnableSwitch="Bomb1" DisableSwitch="Boomf" Point_X="0.458594" Point_Y="0.744444"/>
 </KeyMapping>
 <KeyMapping ItemName="%fName" Point_X="0.175000" Point_Y="0.386111" Description="取消丢雷" Remark="" MiniVisiable="true" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="%fCode">
 <SwitchOperation Description="盾牌炮塔" EnableSwitch="Hand2|YellowTriangle" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.503906" Point_Y="0.702778"/>
@@ -279,7 +279,7 @@ const val KEYMAP_CONTENT_145_566 = """
 <SwitchOperation Description="闪光弹（躲猫猫）" EnableSwitch="Flash2" DisableSwitch="ReturnSetUp" Point_X="0.824686" Point_Y="0.914566"/>
 <SwitchOperation Description="切换手雷" EnableSwitch="SetUp" DisableSwitch="ReturnSetUp" Point_X="0.680469" Point_Y="0.822222"/>
 </KeyMapping>
-<KeyMapping ItemName="%rName" Point_X="0.756836" Point_Y="0.824653" Description="换弹" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%rCode">
+<KeyMapping ItemName="%rName" Point_X="0.756836" Point_Y="0.874653" Description="换弹" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%rCode">
 <SwitchOperation Description="假身（躲猫猫）" EnableSwitch="Flash2" DisableSwitch="ReturnSetUp|Boomf" Point_X="0.734375" Point_Y="0.661111"/>
 <SwitchOperation Description="换弹" EnableSwitch="Reload" DisableSwitch="ReturnSetUp|Boomf" TexturePosition="Reload"/>
 </KeyMapping>
@@ -293,7 +293,7 @@ const val KEYMAP_CONTENT_145_566 = """
 <KeyMapping ItemName="%ctrlName" Point_X="0.951562" Point_Y="0.825000" Description="趴下" Remark="" MiniVisiable="true" MiniDisable="false" AsciiCode="%ctrlCode">
 <SwitchOperation Description="趴下" EnableSwitch="Fall" DisableSwitch="InSetUp" Point_X="0.967057" Point_Y="0.940104" HideTips="1"/>
 <SwitchOperation Description="取消趴下" EnableSwitch="CancelFall" DisableSwitch="InSetUp" Point_X="0.967057" Point_Y="0.940104" HideTips="1"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.950625" Point_Y="0.884444" HideTips="1"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.950625" Point_Y="0.854444" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="%zName" Point_X="0.767969" Point_Y="0.220833" Description="语音按住" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%zCode">
 <SwitchOperation Description="语音按住" EnableSwitch="Voice" DisableSwitch="ReturnSetUp|MissileVolley|Boomf|Transformation"/>
@@ -341,7 +341,7 @@ const val KEYMAP_CONTENT_145_566 = """
 <SwitchOperation Description="开启/关闭语音" EnableSwitch="SetUp" DisableSwitch="ReturnSetUp|MissileVolley|Voice|Boomf|Transformation"/>
 </KeyMappingEx>
 <KeyMapping ItemName="%capsName" Point_X="0.739375" Point_Y="0.587778" Description="Execution" Remark="" MiniVisiable="true" MiniDisable="false" AsciiCode="%capsCode">
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.739375" Point_Y="0.587778"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.779375" Point_Y="0.587778"/>
 <SwitchOperation Description="" EnableSwitch="" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.739375" Point_Y="0.587778" HideTips="1"/>
 </KeyMapping>
 """
