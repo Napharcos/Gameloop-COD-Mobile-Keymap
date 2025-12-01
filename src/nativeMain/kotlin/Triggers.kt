@@ -4,7 +4,8 @@ BEFORE DELETE ON configs
 FOR EACH ROW
 WHEN OLD.key IN (
     'androws.com.activision.callofduty.shooter.smk',
-    'androws.com.activision.callofduty.shooter.default.key_mapping'
+    'androws.com.activision.callofduty.shooter.default.key_mapping',
+    'androws.com.activision.callofduty.shooter.host_config'
 )
 BEGIN
     SELECT RAISE(FAIL, 'Ez a bejegyzés nem törölhető.');
@@ -15,7 +16,8 @@ BEFORE INSERT ON configs
 FOR EACH ROW
 WHEN NEW.key IN (
     'androws.com.activision.callofduty.shooter.smk',
-    'androws.com.activision.callofduty.shooter.default.key_mapping'
+    'androws.com.activision.callofduty.shooter.default.key_mapping',
+    'androws.com.activision.callofduty.shooter.host_config'
 )
 AND EXISTS (
     SELECT 1 FROM configs
@@ -31,7 +33,8 @@ FOR EACH ROW
 WHEN 
     (NEW.key IN (
         'androws.com.activision.callofduty.shooter.smk',
-        'androws.com.activision.callofduty.shooter.default.key_mapping'))
+        'androws.com.activision.callofduty.shooter.default.key_mapping',
+        'androws.com.activision.callofduty.shooter.host_config'))
     AND NEW.value <> OLD.value
 BEGIN
     SELECT RAISE(FAIL, 'A value mező nem módosítható ezeknél a key értékeknél.');

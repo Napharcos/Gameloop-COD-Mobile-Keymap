@@ -158,10 +158,12 @@ const val OFFICIAL_CONFIG2_VALUE1 = """
     <Switch TextureId="118" Comment="雪人手雷" IdentificationId="" Name="Snow"/>
     <Switch TextureId="122" Comment="抬头按住" IdentificationId="" Name="Moto2"/>
     <KeyMapMode ModeID="145" PreviewImage="" Thumbnail="https://static.sj.qq.com/xy/yyb_official_website/oUwQjeas.png" ListImage="" Desciption="" Name="Multi Player" CompatModeID="1">
-        <KeyMapSolution SolutionName="Multi Player" Version="15634" VersionLog="6ZSu5L2N5L+u5aSN" UpdateTime="1741675121" SilentUpdate="0" SolutionID="145"/>
+        <KeyMapSolution SolutionName="MP - 16:9" Version="15634" VersionLog="6ZSu5L2N5L+u5aSN" UpdateTime="1741675121" SilentUpdate="0" SolutionID="145"/>
+        <KeyMapSolution SolutionName="MP - 16:10" Version="17179" VersionLog="6ZSu5L2N5pu05paw" UpdateTime="1745995880" SilentUpdate="1" SolutionID="566632"/>
     </KeyMapMode>
     <KeyMapMode ModeID="146" PreviewImage="" Thumbnail="https://static.sj.qq.com/xy/yyb_official_website/oUwQjeas.png" ListImage="" Desciption="" Name="Battle Royale" CompatModeID="2">
-        <KeyMapSolution SolutionName="Battle Royale" Version="12417" VersionLog="6ZSu5L2N5pu05paw" UpdateTime="1735203564" SilentUpdate="0" SolutionID="146"/>
+        <KeyMapSolution SolutionName="BR - 16:9" Version="12417" VersionLog="6ZSu5L2N5pu05paw" UpdateTime="1735203564" SilentUpdate="0" SolutionID="146"/>
+        <KeyMapSolution SolutionName="BR - 16:10" Version="17175" VersionLog="6ZSu5L2N5pu05paw" UpdateTime="1745993949" SilentUpdate="1" SolutionID="566635"/>
     </KeyMapMode>
 </Item>
 """

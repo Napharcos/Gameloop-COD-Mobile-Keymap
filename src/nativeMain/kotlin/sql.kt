@@ -39,6 +39,12 @@ val KEYMAP_145_145 = """
     ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
 """.trimIndent()
 
+var KEYMAP_145_566 = """
+    INSERT INTO key_map_configs_cache_official (key, value0, value1, value2, value3, value4)
+    VALUES ('offcial_keymap_data2.com.activision.callofduty.shooter.145.566632', '${KEYMAP_CONTENT_145_566.trimIndent()}', '17179', '', '', '') 
+    ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
+""".trimIndent()
+
 //multi player
 var KEYMAP_145_175 = """
     INSERT INTO key_map_configs_cache_official (key, value0, value1, value2, value3, value4)
@@ -50,6 +56,12 @@ fun reinitMP(keys: List<KeyData>) {
     KEYMAP_145_175 = """
     INSERT INTO key_map_configs_cache_official (key, value0, value1, value2, value3, value4)
     VALUES ('keymap_data.unlogin.com.activision.callofduty.shooter.145.1752061764155', '${KEYMAP_CONTENT_145_175.trimIndent().reMap(keys)}', '', '', '', '') 
+    ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
+""".trimIndent()
+
+    KEYMAP_145_566 = """
+    INSERT INTO key_map_configs_cache_official (key, value0, value1, value2, value3, value4)
+    VALUES ('offcial_keymap_data2.com.activision.callofduty.shooter.145.566632', '${KEYMAP_CONTENT_145_566.trimIndent().reMap(keys)}', '17179', '', '', '') 
     ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
 """.trimIndent()
 }
@@ -73,10 +85,22 @@ var KEYMAP_146_175 = """
     ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
 """.trimIndent()
 
+var KEYMAP_146_566 = """
+    INSERT INTO key_map_configs_cache_official (key, value0, value1, value2, value3, value4)
+    VALUES ('offcial_keymap_data2.com.activision.callofduty.shooter.146.566635', '${KEYMAP_CONTENT_146_566.trimIndent()}', '17175', '', '', '') 
+    ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
+""".trimIndent()
+
 fun reinitBR(keys: List<KeyData>) {
     KEYMAP_146_175 = """
     INSERT INTO key_map_configs_cache_official (key, value0, value1, value2, value3, value4)
     VALUES ('keymap_data.unlogin.com.activision.callofduty.shooter.146.1752061764139', '${KEYMAP_CONTENT_146_175.trimIndent().reMap(keys)}', '', '', '', '') 
+    ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
+""".trimIndent()
+
+    KEYMAP_146_566 = """
+    INSERT INTO key_map_configs_cache_official (key, value0, value1, value2, value3, value4)
+    VALUES ('offcial_keymap_data2.com.activision.callofduty.shooter.146.566635', '${KEYMAP_CONTENT_146_566.trimIndent().reMap(keys)}', '17175', '', '', '') 
     ON CONFLICT(key) DO UPDATE SET value0 = excluded.value0;
 """.trimIndent()
 }
