@@ -469,7 +469,7 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="锁定（躲猫猫）" EnableSwitch="Flash2" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.848437" Point_Y="0.709722"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.965625" Point_Y="0.720833"/>
 <SwitchOperation Description="鸣笛中" EnableSwitch="Whistling" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.965625" Point_Y="0.720833"/>
-<SwitchOperation Description="上飞" EnableSwitch="FlyUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.883447" Point_Y="0.486218" HideTips="1"/>
+<SwitchOperation Description="上飞" EnableSwitch="FlyUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.883447" Point_Y="0.536218" HideTips="1"/>
 <SwitchOperation Description="射击" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|Shield|" Point_X="0.060937" Point_Y="0.519444" HideTips="1"/>
 </KeyMappingEx>
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.581250" Point_Y="0.570833" Description="视角" Remark="" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.450000" LOCK_AsciiCode="%lockMouseCode" AsciiCode="%lockMouseCode" MouseResetTime="1000" Sensi_X="1.000000" Sensi_Y="1.000000">
