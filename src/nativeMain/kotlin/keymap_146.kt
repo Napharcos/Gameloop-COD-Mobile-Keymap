@@ -1,12 +1,12 @@
 const val KEYMAP_CONTENT_146_175 = """
 <KeyMapSolution SolutionID="{&quot;id&quot;:&quot;1752061764139&quot;,&quot;type&quot;:0}" SolutionName="使命战场模式" InputType="1" SilentUpdate="0">
 <KeyMapping ItemName="Right Click" Point_X="0.883333" Point_Y="0.558333" Description="右键开镜" Remark="" MiniVisiable="true" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
-<SwitchOperation Description="下飞" EnableSwitch="FlyDown" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.879107" Point_Y="0.723264" HideTips="1"/>
+<SwitchOperation Description="下飞" EnableSwitch="FlyDown" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.756875" Point_Y="0.853264"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|newmap3" Point_X="0.850729" Point_Y="0.596667" HideTips="1"/>
 <SwitchOperation Description="取消瞄准" EnableSwitch="Sniper2|Reload" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|newmap3" Point_X="0.850729" Point_Y="0.596667" HideTips="1"/>
 <SwitchOperation Description="打开地图时取消标记" EnableSwitch="MapOpenFlag" Point_X="0.663281" Point_Y="0.919444"/>
 <SwitchOperation Description="刀" EnableSwitch="Knife" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.060937" Point_Y="0.519444" HideTips="1"/>
-<SwitchOperation Description="战斗机导弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.746706" Point_Y="0.851563"/>
+<SwitchOperation Description="战斗机导弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.685937" Point_Y="0.851563"/>
 <SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.850729" Point_Y="0.596667" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="%tabName" Point_X="0.291406" Point_Y="0.858333" Description="背包" Remark="" MiniVisiable="true" MiniDisable="false" AsciiCode="%tabCode">
@@ -44,11 +44,12 @@ const val KEYMAP_CONTENT_146_175 = """
 <SwitchOperation Description="喷气芯片喷气" EnableSwitch="Blow" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556"/>
 <SwitchOperation Description="喷气芯片喷气中" EnableSwitch="Blow1" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556"/>
 <SwitchOperation Description="跳跃" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
+<SwitchOperation Description="跳跃" EnableSwitch="Parachute1" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
 <SwitchOperation Description="上潜" EnableSwitch="SwimUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
 <SwitchOperation Description="上潜中" EnableSwitch="SwimmingUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
-<SwitchOperation Description="战斗机的刹车" EnableSwitch="jet"  DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.800878" Point_Y="0.582031" />
+<SwitchOperation Description="战斗机的刹车" EnableSwitch="jet"  DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.756875" Point_Y="0.509722" />
 <SwitchOperation Description="刹车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.838281" Point_Y="0.561111"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.838281" Point_Y="0.561111"/>
 </KeyMapping>
 <KeyMapping ItemName="%1Name" Point_X="0.427344" Point_Y="0.852778" Description="换1号武器" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%1Code">
 <SwitchOperation Description="换1号武器" EnableSwitch="Backpage" DisableSwitch="MapOpenFlag|ReturnSetUp|Whistle|FlyDown|Whistling|XBtn|CDX" Point_X="0.427344" Point_Y="0.852778"/>
@@ -65,7 +66,8 @@ const val KEYMAP_CONTENT_146_175 = """
 <SwitchOperation Description="换2号武器" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp|Whistle|FlyDown|Whistling|XBtn|CDX" Point_X="0.539063" Point_Y="0.862500"/>
 </KeyMapping>
 <KeyMapping ItemName="%bName" Point_X="0.685937" Point_Y="0.718056" Description="单发/连发" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%bCode">
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX" Point_X="0.685937" Point_Y="0.718056"/>
+<SwitchOperation Description="" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500000" Point_Y="0.645833"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" Point_X="0.230469" Point_Y="0.450000"/>
 </KeyMapping>
 <KeyMapping ItemName="%cName" Point_X="0.854492" Point_Y="0.918403" Description="下蹲" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%cCode">
 <SwitchOperation Description="下蹲" EnableSwitch="Squat" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.854492" Point_Y="0.918403" HideTips="1"/>
@@ -74,26 +76,27 @@ const val KEYMAP_CONTENT_146_175 = """
 <SwitchOperation Description="下潜中" EnableSwitch="SwimmingDown" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.854492" Point_Y="0.918403" HideTips="1"/>
 <SwitchOperation Description="换位置" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.963281" Point_Y="0.933333"/>
 <SwitchOperation Description="取消趴下" EnableSwitch="CancelFall" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.854492" Point_Y="0.918403" HideTips="1"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" Point_X="0.230469" Point_Y="0.450000"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="Jump" Point_X="0.963281" Point_Y="0.933333"/>
 </KeyMapping>
 <KeyMapping ItemName="%eName" Point_X="0.943750" Point_Y="0.376389" Description="技能" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%eCode">
 <SwitchOperation Description="蜜蜂第三视角" EnableSwitch="tinybee" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.531250" Point_Y="0.764444"/>
 <SwitchOperation Description="塔克马载具机枪下" EnableSwitch="atv2" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.853125" Point_Y="0.465556"/>
 <SwitchOperation Description="塔克马载具机枪" EnableSwitch="atv" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.853125" Point_Y="0.465556"/>
-<SwitchOperation Description="战斗机的干扰弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.910688" Point_Y="0.582031"/>
+<SwitchOperation Description="战斗机的干扰弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.846875" Point_Y="0.465000"/>
 <SwitchOperation Description="新空投确认" EnableSwitch="Airdrop4" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.506250" Point_Y="0.666667"/>
 <SwitchOperation Description="下飞（躲猫猫）" EnableSwitch="Brpeekaboo1" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.723633" Point_Y="0.751736"/>
 <SwitchOperation Description="购物机上一个" EnableSwitch="ShoppingMachine" DisableSwitch="MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.606250" Point_Y="0.695833"/>
 <SwitchOperation Description="CD上一首" EnableSwitch="CDX" DisableSwitch="MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.587500" Point_Y="0.590278"/>
 <SwitchOperation Description="抬头（摩托）" EnableSwitch="Moto1" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.741406" Point_Y="0.744444"/>
 <SwitchOperation Description="抬头按住（摩托）" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.741406" Point_Y="0.744444"/>
-<SwitchOperation Description="飞机的干扰弹" EnableSwitch="Jamming" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.770312" Point_Y="0.609722" TexturePosition="Jamming"/>
+<SwitchOperation Description="飞机的干扰弹" EnableSwitch="Jamming" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.636164" Point_Y="0.609722" TexturePosition="Jamming"/>
 <SwitchOperation Description="直升飞机的攻击" EnableSwitch="Helicopter" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.911875" Point_Y="0.543333" TexturePosition="Helicopter"/>
 <SwitchOperation Description="坦克的干扰弹" EnableSwitch="Tank1" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.905469" Point_Y="0.625000" TexturePosition="Tank1"/>
 <SwitchOperation Description="坦克的干扰弹" EnableSwitch="Tank2" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.905469" Point_Y="0.625000" TexturePosition="Tank2"/>
 <SwitchOperation Description="足球" EnableSwitch="football" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.822500" Point_Y="0.630000"/>
 <SwitchOperation Description="" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.765000" Point_Y="0.460000"/>
-<SwitchOperation Description="技能" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|GetOutCar|SkillX|ReturnSetUp" Point_X="0.943750" Point_Y="0.376389"/>
+<SwitchOperation Description="技能" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag|GetOutCar|SkillX|ReturnSetUp" Point_X="0.943750" Point_Y="0.376389"/>
+<SwitchOperation Description="技能" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|GetOutCar|SkillX|ReturnSetUp" Point_X="0.716406" Point_Y="0.720833"/>
 </KeyMapping>
 <KeyMapping ItemName="%fName" Point_X="0.607812" Point_Y="0.350000" Description="Scene: Drive, Open doors, Pick up, Parachute, Reviving" Remark="" MiniVisiable="true" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="%fCode">
 <SwitchOperation Description="取消" EnableSwitch="YellowTriangle" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.591406" Point_Y="0.640278" TexturePosition="YellowTriangle"/>
@@ -128,6 +131,7 @@ const val KEYMAP_CONTENT_146_175 = """
 <SwitchOperation Description="防空炮进" EnableSwitch="AAgun" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|GetOutCar|AAgun2" Point_X="0.622255" Point_Y="0.500000"/>
 <SwitchOperation Description="义肢使用" EnableSwitch="choose1" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|GetOutCar" Point_X="0.757687" Point_Y="0.700521"/>
 <SwitchOperation Description="离开小蜜蜂" EnableSwitch="tinybee" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|GetOutCar" Point_X="0.943750" Point_Y="0.376389"/>
+<SwitchOperation Description="取消" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|Jump" Point_X="0.943750" Point_Y="0.376389"/>
 <SwitchOperation Description="取消" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.515625" Point_Y="0.755556"/>
 </KeyMapping>
 <KeyMapping ItemName="%tName" Point_X="0.715625" Point_Y="0.300781" Description="字母键划线" MiniVisiable="true" MiniDisable="false" AsciiCode="%tCode">
@@ -144,7 +148,8 @@ const val KEYMAP_CONTENT_146_175 = """
 <SwitchOperation Description="防弹插板" EnableSwitch="Bulletproof" EnablePositionSwitch="Bulletproof:0.068594,0.516667,0.423438,0.958333" DisableSwitch="ReturnSetUp" NotifyController="1" TexturePosition="Bulletproof"/>
 <SwitchOperation Description="Open" EnableSwitch="Open" EnablePositionSwitch="Open:0.068594,0.516667,0.423438,0.958333" HideTips="1" TexturePosition="Open"/>
 <SwitchOperation Description="Close" EnableSwitch="Close" EnablePositionSwitch="Close:0.068594,0.516667,0.423438,0.958333" HideTips="1" NotifyController="1" TexturePosition="Close"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500000" Point_Y="0.645833"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX|Jump" Point_X="0.965625" Point_Y="0.720833"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX" Point_X="0.685937" Point_Y="0.718056"/>
 </KeyMapping>
 <KeyMapping ItemName="%hName" Point_X="0.668945" Point_Y="0.607639" Description="捡物" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%hCode">
 <SwitchOperation Description="捡物" EnableSwitch="PickupDown" DisableSwitch="MapOpenFlag|SkillX" Point_X="0.590044" Point_Y="0.704427"/>
@@ -172,7 +177,8 @@ const val KEYMAP_CONTENT_146_175 = """
 <SwitchOperation Description="滑雪板" EnableSwitch="Ski" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.759375" Point_Y="0.615741" TexturePosition="Ski"/>
 <SwitchOperation Description="蜜蜂第一视角" EnableSwitch="tinybee" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.475625" Point_Y="0.764444"/>
 <SwitchOperation Description="足球" EnableSwitch="football" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.783125" Point_Y="0.707778"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.685937" Point_Y="0.559722"/>
+<SwitchOperation Description="" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.685937" Point_Y="0.559722"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.716406" Point_Y="0.559722"/>
 </KeyMapping>
 <KeyMapping ItemName="%rName" Point_X="0.770508" Point_Y="0.918403" Description="换弹" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%rCode">
 <SwitchOperation Description="摄像头（躲猫猫）" EnableSwitch="Brpeekaboo" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX" Point_X="0.930664" Point_Y="0.531250"/>
@@ -204,11 +210,11 @@ const val KEYMAP_CONTENT_146_175 = """
 <SwitchOperation Description=""/>
 </KeyMappingEx>
 <KeyMappingEx ItemName="鼠标左键" Point_X="0.060937" Point_Y="0.519444" Description="开火" Remark="" MiniVisiable="false" MiniDisable="false" AutoActive="1" Type="LClick" LOCK_AsciiCode="%lockMouseCode">
-<SwitchOperation Description="战斗机机关枪" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.731332" Point_Y="0.691406"/>
+<SwitchOperation Description="战斗机机关枪" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.685937" Point_Y="0.691406"/>
 <SwitchOperation Description="锁定（躲猫猫）" EnableSwitch="Flash2" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.848437" Point_Y="0.709722"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.965625" Point_Y="0.720833"/>
 <SwitchOperation Description="鸣笛中" EnableSwitch="Whistling" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.965625" Point_Y="0.720833"/>
-<SwitchOperation Description="上飞" EnableSwitch="FlyUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.883447" Point_Y="0.486218" HideTips="1"/>
+<SwitchOperation Description="上飞" EnableSwitch="FlyUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.776164" Point_Y="0.586218"/>
 <SwitchOperation Description="射击" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|Shield|" Point_X="0.060937" Point_Y="0.519444" HideTips="1"/>
 </KeyMappingEx>
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.581250" Point_Y="0.570833" Description="视角" Remark="" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.450000" LOCK_AsciiCode="%lockMouseCode" AsciiCode="%lockMouseCode" MouseResetTime="500" Sensi_X="1.000000" Sensi_Y="1.000000">
@@ -265,7 +271,7 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="取消瞄准" EnableSwitch="Sniper2|Reload" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|newmap3" Point_X="0.850729" Point_Y="0.596667" HideTips="1"/>
 <SwitchOperation Description="打开地图时取消标记" EnableSwitch="MapOpenFlag" Point_X="0.663281" Point_Y="0.859444"/>
 <SwitchOperation Description="刀" EnableSwitch="Knife" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.060937" Point_Y="0.519444" HideTips="1"/>
-<SwitchOperation Description="战斗机导弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.746706" Point_Y="0.851563"/>
+<SwitchOperation Description="战斗机导弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.685937" Point_Y="0.851563"/>
 <SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.850729" Point_Y="0.596667" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="%tabName" Point_X="0.291406" Point_Y="0.858333" Description="背包" Remark="" MiniVisiable="true" MiniDisable="false" AsciiCode="%tabCode">
@@ -303,11 +309,12 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="喷气芯片喷气" EnableSwitch="Blow" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556"/>
 <SwitchOperation Description="喷气芯片喷气中" EnableSwitch="Blow1" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556"/>
 <SwitchOperation Description="跳跃" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
+<SwitchOperation Description="跳跃" EnableSwitch="Parachute1" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
 <SwitchOperation Description="上潜" EnableSwitch="SwimUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
 <SwitchOperation Description="上潜中" EnableSwitch="SwimmingUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
-<SwitchOperation Description="战斗机的刹车" EnableSwitch="jet"  DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.800878" Point_Y="0.582031" />
+<SwitchOperation Description="战斗机的刹车" EnableSwitch="jet"  DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.756875" Point_Y="0.509722" />
 <SwitchOperation Description="刹车" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.838281" Point_Y="0.561111"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.952344" Point_Y="0.705556" HideTips="1"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.838281" Point_Y="0.561111"/>
 </KeyMapping>
 <KeyMapping ItemName="%1Name" Point_X="0.427344" Point_Y="0.852778" Description="换1号武器" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%1Code">
 <SwitchOperation Description="换1号武器" EnableSwitch="Backpage" DisableSwitch="MapOpenFlag|ReturnSetUp|Whistle|FlyDown|Whistling|XBtn|CDX" Point_X="0.427344" Point_Y="0.852778"/>
@@ -324,8 +331,8 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="换2号武器" EnableSwitch="SetUp" DisableSwitch="MapOpenFlag|ReturnSetUp|Whistle|FlyDown|Whistling|XBtn|CDX" Point_X="0.539063" Point_Y="0.862500"/>
 </KeyMapping>
 <KeyMapping ItemName="%bName" Point_X="0.445313" Point_Y="0.788889" Description="单发/连发" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%bCode">
-<SwitchOperation Description="单发/连发" EnableSwitch="FireMode1" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX" Point_X="0.445313" Point_Y="0.788889"/>
-<SwitchOperation Description="单发/连发" EnableSwitch="FireMode2" DisableSwitch="XBtn|MapOpenFlag|InSetUp|ReturnSetUp|CDX" Point_X="0.582812" Point_Y="0.794444"/>
+<SwitchOperation Description="" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500000" Point_Y="0.645833"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" Point_X="0.230469" Point_Y="0.450000"/>
 </KeyMapping>
 <KeyMapping ItemName="%cName" Point_X="0.854492" Point_Y="0.918403" Description="下蹲" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%cCode">
 <SwitchOperation Description="下蹲" EnableSwitch="Squat" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.854492" Point_Y="0.918403" HideTips="1"/>
@@ -334,26 +341,27 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="下潜中" EnableSwitch="SwimmingDown" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.854492" Point_Y="0.918403" HideTips="1"/>
 <SwitchOperation Description="换位置" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.963281" Point_Y="0.933333"/>
 <SwitchOperation Description="取消趴下" EnableSwitch="CancelFall" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.854492" Point_Y="0.918403" HideTips="1"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" Point_X="0.230469" Point_Y="0.500000"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="Jump" Point_X="0.963281" Point_Y="0.933333"/>
 </KeyMapping>
 <KeyMapping ItemName="%eName" Point_X="0.943750" Point_Y="0.376389" Description="技能" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%eCode">
 <SwitchOperation Description="蜜蜂第三视角" EnableSwitch="tinybee" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.531250" Point_Y="0.764444"/>
 <SwitchOperation Description="塔克马载具机枪下" EnableSwitch="atv2" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.853125" Point_Y="0.465556"/>
 <SwitchOperation Description="塔克马载具机枪" EnableSwitch="atv" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.853125" Point_Y="0.465556"/>
-<SwitchOperation Description="战斗机的干扰弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.910688" Point_Y="0.582031"/>
+<SwitchOperation Description="战斗机的干扰弹" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.846875" Point_Y="0.465000"/>
 <SwitchOperation Description="新空投确认" EnableSwitch="Airdrop4" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.506250" Point_Y="0.666667"/>
 <SwitchOperation Description="下飞（躲猫猫）" EnableSwitch="Brpeekaboo1" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.723633" Point_Y="0.751736"/>
 <SwitchOperation Description="购物机上一个" EnableSwitch="ShoppingMachine" DisableSwitch="MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.606250" Point_Y="0.695833"/>
 <SwitchOperation Description="CD上一首" EnableSwitch="CDX" DisableSwitch="MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.587500" Point_Y="0.590278"/>
 <SwitchOperation Description="抬头（摩托）" EnableSwitch="Moto1" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.741406" Point_Y="0.744444"/>
 <SwitchOperation Description="抬头按住（摩托）" EnableSwitch="Moto2" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.741406" Point_Y="0.744444"/>
-<SwitchOperation Description="飞机的干扰弹" EnableSwitch="Jamming" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.770312" Point_Y="0.609722" TexturePosition="Jamming"/>
+<SwitchOperation Description="飞机的干扰弹" EnableSwitch="Jamming" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.636164" Point_Y="0.609722" TexturePosition="Jamming"/>
 <SwitchOperation Description="直升飞机的攻击" EnableSwitch="Helicopter" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.911875" Point_Y="0.543333" TexturePosition="Helicopter"/>
 <SwitchOperation Description="坦克的干扰弹" EnableSwitch="Tank1" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.905469" Point_Y="0.625000" TexturePosition="Tank1"/>
 <SwitchOperation Description="坦克的干扰弹" EnableSwitch="Tank2" DisableSwitch="XBtn|MapOpenFlag|SkillX|ReturnSetUp" Point_X="0.905469" Point_Y="0.625000" TexturePosition="Tank2"/>
 <SwitchOperation Description="足球" EnableSwitch="football" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.822500" Point_Y="0.630000"/>
 <SwitchOperation Description="" EnableSwitch="GetOutCar" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.765000" Point_Y="0.460000"/>
-<SwitchOperation Description="技能" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|GetOutCar|SkillX|ReturnSetUp" Point_X="0.943750" Point_Y="0.376389"/>
+<SwitchOperation Description="技能" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag|GetOutCar|SkillX|ReturnSetUp" Point_X="0.943750" Point_Y="0.376389"/>
+<SwitchOperation Description="技能" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|GetOutCar|SkillX|ReturnSetUp" Point_X="0.716406" Point_Y="0.720833"/>
 </KeyMapping>
 <KeyMapping ItemName="%fName" Point_X="0.607812" Point_Y="0.350000" Description="Scene: Drive, Open doors, Pick up, Parachute, Reviving" Remark="" MiniVisiable="true" MiniDisable="false" NoDelete="1" SpecialFunc="1002" OpGuidClass="0" AsciiCode="%fCode">
 <SwitchOperation Description="取消" EnableSwitch="YellowTriangle" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.591406" Point_Y="0.640278" TexturePosition="YellowTriangle"/>
@@ -388,6 +396,7 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="防空炮进" EnableSwitch="AAgun" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|GetOutCar|AAgun2" Point_X="0.622255" Point_Y="0.500000"/>
 <SwitchOperation Description="义肢使用" EnableSwitch="choose1" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|GetOutCar" Point_X="0.757687" Point_Y="0.700521"/>
 <SwitchOperation Description="离开小蜜蜂" EnableSwitch="tinybee" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|GetOutCar" Point_X="0.943750" Point_Y="0.376389"/>
+<SwitchOperation Description="取消" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|Jump" Point_X="0.943750" Point_Y="0.376389"/>
 <SwitchOperation Description="取消" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.515625" Point_Y="0.754000"/>
 </KeyMapping>
 <KeyMapping ItemName="%tName" Point_X="0.715625" Point_Y="0.300781" Description="字母键划线" MiniVisiable="true" MiniDisable="false" AsciiCode="%tCode">
@@ -404,7 +413,8 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="防弹插板" EnableSwitch="Bulletproof" EnablePositionSwitch="Bulletproof:0.068594,0.516667,0.423438,0.958333" DisableSwitch="ReturnSetUp" NotifyController="1" TexturePosition="Bulletproof"/>
 <SwitchOperation Description="Open" EnableSwitch="Open" EnablePositionSwitch="Open:0.068594,0.516667,0.423438,0.958333" HideTips="1" TexturePosition="Open"/>
 <SwitchOperation Description="Close" EnableSwitch="Close" EnablePositionSwitch="Close:0.068594,0.516667,0.423438,0.958333" HideTips="1" NotifyController="1" TexturePosition="Close"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.500000" Point_Y="0.645833"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX|Jump" Point_X="0.965625" Point_Y="0.720833"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX" Point_X="0.685937" Point_Y="0.718056"/>
 </KeyMapping>
 <KeyMapping ItemName="%hName" Point_X="0.668945" Point_Y="0.607639" Description="捡物" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%hCode">
 <SwitchOperation Description="捡物" EnableSwitch="PickupDown" DisableSwitch="MapOpenFlag|SkillX" Point_X="0.590044" Point_Y="0.724427"/>
@@ -432,7 +442,8 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description="滑雪板" EnableSwitch="Ski" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp" Point_X="0.759375" Point_Y="0.615741" TexturePosition="Ski"/>
 <SwitchOperation Description="蜜蜂第一视角" EnableSwitch="tinybee" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.475625" Point_Y="0.764444"/>
 <SwitchOperation Description="足球" EnableSwitch="football" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.783125" Point_Y="0.707778"/>
-<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.685937" Point_Y="0.559722"/>
+<SwitchOperation Description="" EnableSwitch="Jump" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.685937" Point_Y="0.559722"/>
+<SwitchOperation Description="" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag" Point_X="0.716406" Point_Y="0.559722"/>
 </KeyMapping>
 <KeyMapping ItemName="%rName" Point_X="0.770508" Point_Y="0.918403" Description="换弹" Remark="" MiniVisiable="false" MiniDisable="false" AsciiCode="%rCode">
 <SwitchOperation Description="摄像头（躲猫猫）" EnableSwitch="Brpeekaboo" DisableSwitch="XBtn|MapOpenFlag|ReturnSetUp|CDX" Point_X="0.930664" Point_Y="0.531250"/>
@@ -464,11 +475,11 @@ const val KEYMAP_CONTENT_146_566 = """
 <SwitchOperation Description=""/>
 </KeyMappingEx>
 <KeyMappingEx ItemName="鼠标左键" Point_X="0.060937" Point_Y="0.519444" Description="开火" Remark="" MiniVisiable="false" MiniDisable="false" AutoActive="1" Type="LClick" LOCK_AsciiCode="%lockMouseCode">
-<SwitchOperation Description="战斗机机关枪" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.731332" Point_Y="0.691406"/>
+<SwitchOperation Description="战斗机机关枪" EnableSwitch="jet" DisableSwitch="MapOpenFlag|ReturnSetUp" Point_X="0.685937" Point_Y="0.691406"/>
 <SwitchOperation Description="锁定（躲猫猫）" EnableSwitch="Flash2" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.848437" Point_Y="0.709722"/>
 <SwitchOperation Description="鸣笛" EnableSwitch="Whistle" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.965625" Point_Y="0.720833"/>
 <SwitchOperation Description="鸣笛中" EnableSwitch="Whistling" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.965625" Point_Y="0.720833"/>
-<SwitchOperation Description="上飞" EnableSwitch="FlyUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.883447" Point_Y="0.536218" HideTips="1"/>
+<SwitchOperation Description="上飞" EnableSwitch="FlyUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.776164" Point_Y="0.586218"/>
 <SwitchOperation Description="射击" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|Shield|" Point_X="0.060937" Point_Y="0.519444" HideTips="1"/>
 </KeyMappingEx>
 <KeyMappingEx ItemName="Move with Mouse" Point_X="0.581250" Point_Y="0.570833" Description="视角" Remark="" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AutoActive="1" Raw="1" Type="RClick" Offset="0.450000" LOCK_AsciiCode="%lockMouseCode" AsciiCode="%lockMouseCode" MouseResetTime="500" Sensi_X="1.000000" Sensi_Y="1.000000">
@@ -603,6 +614,7 @@ const val KEYMAP_CONTENT_176 = """
 <KeyMappingEx ItemName="WASD" Point_X="0.163982" Point_Y="0.781250" Description="移动" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="CrossKey" UP_AsciiCode="87" DOWN_AsciiCode="83" LEFT_AsciiCode="65" RIGHT_AsciiCode="68" Offset="0.070258" ShiftOffset="0.100000" Speed="0.000000">
 <SwitchOperation Description="" EnableSwitch="Fall"/>
 <SwitchOperation Description="" EnableSwitch="Jump"/>
+<SwitchOperation Description="" EnableSwitch=""/>
 </KeyMappingEx>
 <KeyMappingEx ItemName="Left Mouse Button" Point_X="0.049048" Point_Y="0.519531" Description="开火" MiniVisiable="false" MiniDisable="false" AutoActive="1" Type="LClick" LOCK_AsciiCode="%lockMouseCode">
 <SwitchOperation Description="" EnableSwitch="Fall" HideTips="1"/>
