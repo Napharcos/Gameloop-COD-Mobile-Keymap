@@ -3,14 +3,13 @@ import kotlinx.cinterop.*
 import platform.posix.*
 import platform.windows.*
 
-var codVersion = ""
-
 object ConsoleManager {
 
     const val TH32CS_SNAPPROCESS: UInt = 0x00000002u
 
     fun startCODM() {
-        val exe = "C:\\Program Files\\Tencent\\GameLoop\\Application\\GameLoopLauncher.exe"
+        val path = getGameloopPath()
+        val exe = if (path != null) "$path\\Application\\GameLoopLauncher.exe" else "C:\\Program Files\\Tencent\\GameLoop\\Application\\GameLoopLauncher.exe"
         val args = "--from \"2\" --launch-pkg-name \"com.activision.callofduty.shooter\" --launch-proc-name \"GameLoopEmulator.exe\""
         val command = "cmd /c start \"\" \"$exe\" $args"
         system(command)
@@ -83,5 +82,28 @@ object ConsoleManager {
         val path = pathPtr.value?.toKString()
         CoTaskMemFree(pathPtr.value)
         return path
+    }
+
+    @OptIn(ExperimentalForeignApi::class)
+    private fun getGameloopPath(): String? = memScoped {
+        val hKey = alloc<CPointerVar<HKEY__>>()
+
+        val result = RegOpenKeyExW(
+            hKey = HKEY_LOCAL_MACHINE,
+            lpSubKey = "Software\\Tencent\\GameLoop",
+            ulOptions = 0u,
+            samDesired = KEY_READ.toUInt(),
+            phkResult = hKey.ptr
+        )
+
+        if (result != ERROR_SUCCESS) return null
+
+        try {
+            getValue(hKey.value!!, "InstallPath")
+        } catch (_: Throwable) {
+            null
+        } finally {
+            RegCloseKey(hKey.value)
+        }
     }
 }
