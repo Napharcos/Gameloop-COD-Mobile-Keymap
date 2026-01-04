@@ -1,7 +1,7 @@
 const val KEYMAP_CONTENT_146_175 = """
 <KeyMapSolution SolutionID="{&quot;id&quot;:&quot;1752061764139&quot;,&quot;type&quot;:0}" SolutionName="使命战场模式" InputType="1" SilentUpdate="0">
 <KeyMapping ItemName="Right Click" Point_X="0.883333" Point_Y="0.558333" Description="右键开镜" Remark="" MiniVisiable="true" MiniDisable="false" ShowOnLockAsciiCode="192" AsciiCode="-2">
-<SwitchOperation Description="下飞" EnableSwitch="FlyDown" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.756875" Point_Y="0.853264"/>
+<SwitchOperation Description="下飞" EnableSwitch="FlyDown" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX" Point_X="0.756875" Point_Y="0.823264"/>
 <SwitchOperation Description="瞄准" EnableSwitch="Sniper" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|newmap3" Point_X="0.850729" Point_Y="0.596667" HideTips="1"/>
 <SwitchOperation Description="取消瞄准" EnableSwitch="Sniper2|Reload" DisableSwitch="XBtn|MapOpenFlag|BreastPatting|ReturnSetUp|SkillX|newmap3" Point_X="0.850729" Point_Y="0.596667" HideTips="1"/>
 <SwitchOperation Description="打开地图时取消标记" EnableSwitch="MapOpenFlag" Point_X="0.663281" Point_Y="0.919444"/>
